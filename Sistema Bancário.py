@@ -95,11 +95,12 @@ def main():
     limite = 500
     extrato = ""
     numero_saques = 0
-    LIMITE_SAQUES = 3
-    AGENCIA = "0001"
     usuarios = []
     contas = []
 
+    LIMITE_SAQUES = 3
+    AGENCIA = "0001"
+    
     while True:
 
         opcao = input(menu)
